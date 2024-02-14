@@ -1,7 +1,7 @@
 # Python
 Aprendendo Python
 
-## Simple Calculator
+## FirstProject - Simple Calculator
 - This is a simple calculator application built using Python's Tkinter library. It provides basic arithmetic operations such as addition, subtraction, multiplication, and division. The user interface is designed to be intuitive and easy to use.
 
 ### Features
