@@ -26,3 +26,4 @@ Aprendendo Python
  - Use the "=" button to calculate the result.
  - Percentage calculation can be performed by clicking the "%" button after entering a number.
  - Decimal point can be added using the "." button.
+![image](https://github.com/JasminCordeiro/Python/assets/79463331/220a1065-b4cd-46ab-9df5-bc37e19f8fdc)
