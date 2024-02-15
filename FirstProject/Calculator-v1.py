@@ -8,6 +8,7 @@ color2 = "#feffff" # white
 color3 = "#38576b" # blue
 color4 = "#ECEFF1" # gray
 color5 = '#FFAB40' # orange
+color6 = '#4a4542' # other gray
 
 janela =Tk()
 janela.title("Calculator")
