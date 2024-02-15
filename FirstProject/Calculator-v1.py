@@ -9,8 +9,6 @@ color3 = "#38576b" # blue
 color4 = "#ECEFF1" # gray
 color5 = '#FFAB40' # orange
 
-
-
 janela =Tk()
 janela.title("Calculator")
 janela.geometry("235x310")
@@ -44,12 +42,11 @@ def calc():
     result = eval(all_values)
     value_text.set(str(result))
 
-#function to clean screen
+# function to clean screen
 def clean_screen():
     global all_values
     all_values = ''
     value_text.set("")
-
 
 # create Label
 value_text = StringVar()
