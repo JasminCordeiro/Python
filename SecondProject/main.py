@@ -6,9 +6,10 @@ app = Flask(__name__) #Esse arquivo atual representará minha aplicação da web
 def home():
     return render_template("home.html")
 
-@app.route("/Teste")
-def teste():
-    return "Hello Test!!"
+
+@app.route("/budget")
+def budget():
+    return render_template("budget.html")
 
 if __name__ == "__main__":
     app.run(debug=True)

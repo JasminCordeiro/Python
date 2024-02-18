@@ -51,11 +51,15 @@
 
     <div class="container"  id="section3" >
         <div class="container-about">
-            <h2>Faça seu orçamento</h2>
+            <h2>Compre um produto Zyde, e se torne um Zyder</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, ea impedit, molestiae laborum veritatis asperiores, cum maiores ab facere perspiciatis hic aspernatur rerum fugit eligendi? Itaque suscipit molestias dolorem voluptas?</p>
+            <br>    
+            <a href="{{ url_for('budget') }}"><button class="budget">Faça seu orçamento</button></a>
+            
+
         </div>
         <div class="container-img"> 
-            <img src="{{ url_for('static', filename='IMG/img4.png') }}" alt="" width="600px" >
+            <img src="{{ url_for('static', filename='IMG/img4.png')}}" alt="" width="600px" >
         </div>
     </div>
 
@@ -65,6 +69,6 @@
         <p class="copy">Zyde &copy; 2024</p>
     </footer>
 
-    <script src="./script.js"></script>
+    
 </body>
 </html>
