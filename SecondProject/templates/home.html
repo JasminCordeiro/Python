@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zyde</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='IMG/logo.png') }}" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <a href="" class="navbar-brand">
+                
+                <img src="{{ url_for('static', filename='IMG/logo.png') }}" alt="Logo da Zyde" >
+            </a>
+            <ul class="links-navbar">
+                <li><a href="#section1">Quem somos?</a></li>
+                <li><a href="#section2">Produtos</a></li>
+                <li><a href="#section3">Faça seu orçamento</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Body  -->
+
+    <div class="container" id="section1">
+        <div class="container-about">
+            <h1 >O que é Zyde?</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, ea impedit, molestiae laborum veritatis asperiores, cum maiores ab facere perspiciatis hic aspernatur rerum fugit eligendi? Itaque suscipit molestias dolorem voluptas?</p> 
+        </div>
+        <div class="container-img"> 
+            <img src="{{ url_for('static', filename='IMG/img2.png') }}" alt="" width="600px" >
+            </div>
+    </div>
+    <!----------------------->
+    <div class="container"  id="section2">
+        <div class="container-img"> 
+            <img src="{{ url_for('static', filename='IMG/img3.png') }}" alt="" width="600px" >
+        </div>
+        <div class="container-about"  >
+            <h2>Nossos produtos</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, ea impedit, molestiae laborum veritatis asperiores, cum maiores ab facere perspiciatis hic aspernatur rerum fugit eligendi? Itaque suscipit molestias dolorem voluptas?</p>    
+        </div>
+    </div>
+    <!----------------------->
+
+    <div class="container"  id="section3" >
+        <div class="container-about">
+            <h2>Faça seu orçamento</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, ea impedit, molestiae laborum veritatis asperiores, cum maiores ab facere perspiciatis hic aspernatur rerum fugit eligendi? Itaque suscipit molestias dolorem voluptas?</p>
+        </div>
+        <div class="container-img"> 
+            <img src="{{ url_for('static', filename='IMG/img4.png') }}" alt="" width="600px" >
+        </div>
+    </div>
+
+    <!-- footer -->
+
+    <footer class="footer">
+        <p class="copy">Zyde &copy; 2024</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar.navbar-expand-lg{
+    position: fixed;
+    top: 0;
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand img{    
+    width: 72px;
+}
+
+.links-navbar {
+    list-style: none;
+    color: #7436D4ff;
+    cursor: pointer;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    font-size: 20px;
+    text-transform: uppercase;
+    flex-wrap: wrap;
+}
+
+.links-navbar li{
+    margin-right: 16px;
+}
+
+.links-navbar li:hover{
+    color: #F6C101;
+    transition: 500ms ease;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 48px
+    
+}
+
+.container h1{
+    font-size: 60px;
+}
+
+.container h2{
+    font-size: 50px;
+}
+
+.container h3{
+    font-size: 40px;
+}
+
+.container-about{
+    margin: 68px;
+}
+
+.container-about img{
+    width: 0px;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+footer .copy{
+    margin-bottom: 16px;   
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+}
+
+a:hover, a:active{
+    color: inherit;
+}
+
