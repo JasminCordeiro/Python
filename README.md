@@ -4,13 +4,13 @@
 - This is a simple calculator application built using Python's Tkinter library. It provides basic arithmetic operations such as addition, subtraction, multiplication, and division. The user interface is designed to be intuitive and easy to use.
 
 ### Features
- - Addition
+ - Addition 
  - Subtraction
- - Multiplication
+ - Multiplication  
  - Division
- - Percentage calculation
- - Clear screen functionality
-### Requirements
+ - Percentage calculation 
+ - Clear screen functionality 
+### Requirements 
  - Python 3.x
  - Tkinter library (usually included with Python installation)
 ### Usage
